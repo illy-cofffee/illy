@@ -32,11 +32,20 @@
             "text": "<p>When Francesco Illy founded his company in 1933 he had a dream: to make the best coffee that nature can produce and share it with the entire world. From that day, illycaffe has never stopped working to make that dream come true. His idea contained new and revolutionary concepts.</p><p>He remained committed to these throughout his life, and his children and grandchildren have nurtured them and turned them into a unique business and family history.</p><p>Today, illy is the world’s most global coffee brand, producing the unique illy 100% Arabica blend made of 9 of the world ‘s best selections of Arabica; enjoyed each day with more than 7 million cups served in over 140 countries in the finest cafés, restaurants and hotels.</p>",
             "text_style": "body"
           }
+        },
+        "button_w7Y6AF": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "shopify://collections/all",
+            "button_style_secondary": false
+          }
         }
       },
       "block_order": [
         "heading_y6FVK8",
-        "text_XcKj4X"
+        "text_XcKj4X",
+        "button_w7Y6AF"
       ],
       "settings": {
         "image": "shopify://shop_images/2019_Espresso_3_4_brewing_red_background.jpg",
