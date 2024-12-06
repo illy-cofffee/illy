@@ -1,7 +1,7 @@
 
 .modal-subscription-dark-overlay {
     display: none;
-    background-color: rgba(51, 51, 51, 0.52);
+    background-color: rgba(99, 102, 96, 0.52);
     position: fixed;
     top: 0;
     bottom: 0;
@@ -58,15 +58,15 @@
     margin-bottom: 0.8rem;
 }
 
-.form-title-spectral {
+/* .form-title-spectral {
     font-family: var(--mb-font-spectral);
     font-style: italic;
     color: var(--mb-colour-orange-gum-2);
     font-size: 2rem; 
-}
+} */
 
 .image-container {
-    background-image: url('https://cdn.shopify.com/s/files/1/0661/4951/5520/files/popup-march.jpg?v=1707868223');
+    background-image: url('https://cdn.shopify.com/s/files/1/0610/5448/4559/files/newsletter-popup-icon.jpg?v=1733449536');
     background-size: auto 100%;
     background-repeat: no-repeat;
     background-position: center top;
@@ -76,7 +76,7 @@
 
 .subscription-form-container {
     display: flex;
-    background-color: rgba(51, 51, 51, 0.90);
+    background-color: #f6f0ec;
     position: relative;
     color: #fff;
     height: auto;
@@ -94,7 +94,7 @@
 
 .subscription-form-container-thankyou {
     display: flex;
-    background-color: #333333;
+    background-color: #f6f0ec;
     position: relative;
     color: #fff;
     height: 600px;
@@ -103,7 +103,7 @@
 }
 
 .subscription-form-actual {
-    color: #FFFFFF;
+    color: #512c1f;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -112,7 +112,7 @@
 }
 
 .subscription-form-actual a, .subscription-form-actual a:hover, .subscription-form-actual a:active {
-    color: #FFFFFF;
+    color: #512c1f;
 }
 
 .subscription-form-actual .form-input {
@@ -140,7 +140,7 @@
 
     .subscription-form-container {
         display: flex;
-        background-color: rgba(51, 51, 51, 0.90);
+        background-color: #f6f0ec;
         position: relative;
         color: #fff;
         height: auto;

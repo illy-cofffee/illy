@@ -9,6 +9,7 @@
                 </span>
             </span>
 		</button>
+
 		<form
 			class="subscription-form-actual"
 			name="ProfileFormWithSMS"
@@ -16,23 +17,12 @@
 			action="{{ form_destination }}"
 			method="get"
 		>
-			<input type="hidden" name="CID" value="{{ form_cid }}">
-			<input type="hidden" name="SID" value="">
-			<input type="hidden" name="UID"	value="">
-			<input type="hidden" name="f" value="{{ form_f }}">
-			<input type="hidden" name="p" value="2">
-			<input type="hidden" name="a" value="r">
-			<input type="hidden" name="el" value="">
-			<input type="hidden" name="llid" value="">
-			<input type="hidden" name="c" value="">
-			<input type="hidden" name="counted" value="">
-			<input type="hidden" name="RID" value="">
-			<input type="hidden" name="mailnow" value="">
+	
 			<div class="form-title">
 				<div class="form-subhead">New around here?</div>
-				Enjoy <span class="form-title-spectral">20% off</span> on us*
-			</div>
-			<label for="inp_1"> First name </label>
+				Offer copy goes here
+			</div> 
+            <label for="inp_1"> First name </label>
 			<input
 				class="field__input"
 				type="text"
@@ -168,10 +158,10 @@
 					value="NO THANKS"
 					onclick="javascript:closeModal()"
 				>
-			</label>
-		
+			</label> 
 		</form>
-		<div class="image-container"></div>
+        
+		<div class="image-container">&nbsp;</div>
 	</div>
 </div>
 
