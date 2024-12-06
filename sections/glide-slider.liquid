@@ -53,7 +53,7 @@
                   {%- if block.settings.button_label != blank -%}
     
                     <div>
-                      {%- render 'button', label: block.settings.button_label, link: block.settings.link, style: block.settings.button_style, fullwidth: false -%}
+                      {%- render 'button', label: block.settings.button_label, link: block.settings.link, button_style: block.settings.button_style, fullwidth: false -%}
                     </div>
     
       {%- endif -%}
@@ -370,16 +370,16 @@
           "type": "select",
           "options": [
             {
-              "value": "outline",
-              "label": "Outline"
+              "value": "",
+              "label": "Primary"
             },
             {
-              "value": "solid",
-              "label": "Solid"
+              "value": "button--secondary",
+              "label": "Secondary"
             },
             {
-              "value": "light",
-              "label": "Light"
+              "value": "button--tertiary",
+              "label": "Tertiary"
             }
           ],
           "default": "solid"
