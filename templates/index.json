@@ -35,6 +35,7 @@
         "heading",
         "button"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify://shop_images/Gelsomini_TazzinaStatica_loop_1440x490_40ef6562-bae6-4836-9ecd-5cda7497b6d6.gif",
         "image_overlay_opacity": 0,
@@ -134,9 +135,9 @@
     }
   },
   "order": [
+    "glide_slider_YBgELg",
     "image_banner",
     "featured_collection",
-    "featured_collection_3cCFxh",
-    "glide_slider_YBgELg"
+    "featured_collection_3cCFxh"
   ]
 }
