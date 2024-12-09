@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
     "name": "illy",
     "version": "1.0.0",
     "description": "## 🛒 Shopify Liquid Theme",
@@ -18,3 +19,30 @@
     }
   }
   
+=======
+  "name": "Illy Australia",
+  "version": "1.0.0",
+  "description": "## 🛒 Shopify Liquid Theme",
+  "main": "index.js",
+  "scripts": {
+    "launch": "shopify theme dev --store=pollen-testing.myshopify.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/technobleep/illy.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/technobleep/illy.git/issues"
+  },
+  "homepage": "https://github.com/technobleep/illy.git#readme",
+  "devDependencies": {
+    
+  },
+  "dependencies": {
+    
+  }
+}
+>>>>>>> a760b68 (add package.json)
