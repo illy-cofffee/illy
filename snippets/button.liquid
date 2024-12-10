@@ -15,8 +15,9 @@
   {% endif %}
   
     class="button {{ button_style }} {% if fullwidth %} button--fullwidth {% endif %}  button--icon {% if icon_position == 'left' %} button--icon-left {% endif %}" {{ attribute }}>
-  
-      <span class="button__icon" role="img" aria-hidden="true">{%- render 'theme-symbols', icon: icon -%}</span>
       <span class="button__text text-weight--{{ text_weight }} text-size--{{ text_size }}">{{ label }}</span>
+      <span class="svg-wrapper">
+        {{- 'icon-arrow.svg' | inline_asset_content -}}
+      </span>
   
   </{%- if type == 'button' -%} button {%- else -%} a {%- endif -%}>
