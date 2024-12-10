@@ -24,9 +24,9 @@
                   {% endunless %}>
                     <!-- Test content -->
                     
-                  {%- unless block.settings.outline_text == blank -%}
+                  {%- unless block.settings.subtitle == blank -%}
     
-                    <span class="text-size--small">{{ block.settings.outline_text | escape }}</span>
+                    <span class="text-size--small">{{ block.settings.subtitle | escape }}</span>
                   
                   {%- endunless -%}
     
@@ -34,9 +34,7 @@
                   {% assign blockheader = block.settings.glide-slider-item-header %}
                   {% assign blockheader = blockheader | remove: "<p>" %}
                   {% assign blockheader = blockheader | remove: "</p>" %}
-                  {% assign blockheader = blockheader | replace: "<em>", "<span class='em-spectral'>" %}
-                  {% assign blockheader = blockheader | replace: "</em>", "</span>" %}
-    
+
                   {% if section.settings.h1-title == true %} 
     
                                 <h1 {% else %} <h3 {% endif %}>
@@ -92,9 +90,9 @@
                 {% endunless %}>
                   <!-- Test content -->
                   
-    {%- unless block.settings.outline_text == blank -%}
+    {%- unless block.settings.subtitle == blank -%}
     
-                  <span class="text-size--small">{{ block.settings.outline_text | escape }}</span>
+                  <span class="text-size--small">{{ block.settings.subtitle | escape }}</span>
                 
     {%- endunless -%}
     
@@ -102,8 +100,6 @@
     {% assign blockheader = block.settings.glide-slider-item-header %}
     {% assign blockheader = blockheader | remove: "<p>" %}
     {% assign blockheader = blockheader | remove: "</p>" %}
-    {% assign blockheader = blockheader | replace: "<em>", "<span class='em-spectral'>" %}
-    {% assign blockheader = blockheader | replace: "</em>", "</span>" %}
     
     {% if section.settings.h1-title == true %} 
     
@@ -292,8 +288,8 @@
         },
         {
           "type": "text",
-          "id": "outline_text",
-          "label": "Outline text",
+          "id": "subtitle",
+          "label": "Subtitle",
           "default": "Introducing"
         },
         {
