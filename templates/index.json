@@ -16,8 +16,8 @@
           "type": "glide-slider-item",
           "settings": {
             "glide-slider-item-header": "<p>Enter header...</p>",
-            "column_layout": "two_columns",
-            "image": "shopify://shop_images/newsletter-popup-icon.jpg",
+            "column_layout": "one_column",
+            "image": "shopify://shop_images/67474d84e6f75e8ea99d20f8_jpg.jpg",
             "subtitle": "Introducing",
             "description": "",
             "alignment": "align-top-left",
