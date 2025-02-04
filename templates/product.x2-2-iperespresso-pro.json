@@ -85,8 +85,8 @@
     "video_WpQGHJ": {
       "type": "video",
       "settings": {
-        "heading": "Video",
-        "heading_size": "h1",
+        "heading": "See it in action",
+        "heading_size": "h2",
         "enable_video_looping": false,
         "video_url": "https://www.youtube.com/watch?v=hySofvx1za8",
         "cover_image": "shopify://shop_images/play-thumbnail_b8c3eeba-abba-4a8f-a747-df1e23912e12.jpg",
