@@ -238,16 +238,6 @@ body:has(.section-header .drawer-menu) .announcement-bar-section .page-width {
   background-color: rgba(var(--color-foreground), 0.2);
 }
 
-@font-face {
-  font-family: "Museo Sans Regular";
-    src: url( '{{ "Museo_Sans_Regular.woff" | asset_url }}' ) format("woff"),
-        url( '{{ "Museo_Sans_Regular.woff2" | asset_url }}' ) format("woff2"),
-        url( '{{ "Museo_Sans_Regular.ttf" | asset_url }}' ) format("truetype");
-    font-weight:normal;
-    font-style:normal;
-    font-display:swap;
-}
-
 .text-body {
   font-size: 1.5rem;
   letter-spacing: 0.06rem;
