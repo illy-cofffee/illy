@@ -57,7 +57,17 @@
       {%- endif -%}
                   </div> <!-- end slider-column-content -->
     
-                  {%- capture sizes -%}
+
+                  <img
+                    src="{{ block.settings.image | image_url: width: 300 }}"
+                    class=""
+                    alt="{{ block.settings.image.alt | escape }}"
+                    loading="lazy"
+                    width="150"
+                    height="{{ 150 | divided_by: item.image.aspect_ratio | ceil }}"
+                  >
+
+                  {% comment %} {%- capture sizes -%}
                     sizes="(max-width: 1023px) calc({{ block.settings.mobile_height }} * {{ block.settings.image.aspect_ratio }}), calc({{ block.settings.desktop_height }} * {{ block.settings.image.aspect_ratio }})"
                   {%- endcapture -%}
                   
@@ -75,7 +85,7 @@
                   
                     render 'lazy-image', image: block.settings.image, type: 'background', alt: block.settings.title, image_alignment: true, sizes: sizes, class: image_class, overlay: true, image_class: 'img-top-left'
                   
-                  -%}
+                  -%} {% endcomment %}
                   </div><!-- end slider-image -->
     
                   
