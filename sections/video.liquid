@@ -37,7 +37,7 @@
     calc(100vw - 10rem), 100vw
   {%- endif %}
 {%- endcapture -%}
-
+type is {{ section.settings.video_url.type }} ++
 {% if section.settings.video_url != null %}
 <div class="color-{{ section.settings.color_scheme }} gradient">
   <div class="video-section isolate{% unless section.settings.full_width %} page-width{% endunless %} section-{{ section.id }}-padding">
