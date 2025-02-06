@@ -88,7 +88,7 @@
         "heading": "See it in action",
         "heading_size": "h2",
         "enable_video_looping": false,
-        "video_url": "https://www.youtube.com/watch?v=hySofvx1za8",
+        "video_url": "{{ product.metafields.custom.how_to_video.value }}",
         "cover_image": "shopify://shop_images/play-thumbnail_b8c3eeba-abba-4a8f-a747-df1e23912e12.jpg",
         "description": "",
         "full_width": false,
