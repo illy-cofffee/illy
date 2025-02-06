@@ -1,0 +1,27 @@
+{
+  "name": "illy",
+  "version": "1.0.0",
+  "description": "## 🛒 Shopify Liquid Theme",
+  "main": "index.js",
+  "scripts": {
+    "launch": "shopify theme dev --store=illy-testing.myshopify.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/illy-coffee/illy.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/illy-coffee/illy.git/issues"
+  },
+  "homepage": "https://github.com/illy-coffee/illy.git#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.38.1",
+    "@types/node": "^20.6.3"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1"
+  }
+}

@@ -1,21 +1,73 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
+    "glide_slider_YBgELg": {
+      "type": "glide-slider",
+      "blocks": {
+        "glide_slider_item_BWNG4T": {
+          "type": "glide-slider-item",
+          "settings": {
+            "glide-slider-item-header": "<p>Enter header...</p>",
+            "column_layout": "two_columns",
+            "image": "shopify://shop_images/16449X2.2035Amici_LR_1.jpg",
+            "subtitle": "Introducing",
+            "description": "",
+            "alignment": "align-top-left",
+            "link": "",
+            "button_label": "Show more",
+            "button_style": "solid",
+            "color_background_main": "#d12620",
+            "color_text_main": "#333333"
+          }
+        },
+        "glide_slider_item_jBMQnE": {
+          "type": "glide-slider-item",
+          "settings": {
+            "glide-slider-item-header": "<p>Testing 123</p>",
+            "column_layout": "one_column",
+            "subtitle": "subheading",
+            "description": "",
+            "alignment": "align-top-left",
+            "link": "",
+            "button_label": "Show more",
+            "button_style": "outline",
+            "color_background_main": "#ee1c23",
+            "color_text_main": "#333333"
+          }
+        }
+      },
+      "block_order": [
+        "glide_slider_item_BWNG4T",
+        "glide_slider_item_jBMQnE"
+      ],
+      "settings": {
+        "h1-title": true
+      }
+    },
     "image_banner": {
       "type": "image-banner",
       "blocks": {
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Browse our latest products",
+            "heading": "The best that nature can offer in a cup of signature premium illy coffee",
             "heading_size": "h0"
           }
         },
         "button": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Shop all",
-            "button_link_1": "shopify://collections/all",
-            "button_style_secondary_1": true,
+            "button_label_1": "Shop Coffee",
+            "button_link_1": "shopify://collections/coffee",
+            "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",
             "button_style_secondary_2": false
@@ -26,14 +78,16 @@
         "heading",
         "button"
       ],
+      "disabled": true,
       "settings": {
-        "image_overlay_opacity": 40,
-        "image_height": "large",
-        "desktop_content_position": "bottom-center",
+        "image": "shopify://shop_images/Gelsomini_TazzinaStatica_loop_1440x490_40ef6562-bae6-4836-9ecd-5cda7497b6d6.gif",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-left",
         "show_text_box": false,
+        "desktop_content_alignment": "left",
+        "color_scheme": "scheme-c7d4a1bd-de5a-43eb-b7f8-7878dd540077",
         "image_behavior": "none",
-        "desktop_content_alignment": "center",
-        "color_scheme": "scheme-3",
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": false,
         "show_text_below": false
@@ -50,12 +104,11 @@
         "collection": "all",
         "products_to_show": 8,
         "columns_desktop": 4,
-        "color_scheme": "scheme-1",
         "full_width": false,
         "show_view_all": true,
         "view_all_style": "solid",
         "enable_desktop_slider": false,
-        "swipe_on_mobile": false,
+        "color_scheme": "scheme-1",
         "image_ratio": "adapt",
         "image_shape": "default",
         "show_secondary_image": true,
@@ -63,13 +116,44 @@
         "show_rating": false,
         "quick_add": "none",
         "columns_mobile": "2",
+        "swipe_on_mobile": false,
         "padding_top": 44,
+        "padding_bottom": 36
+      }
+    },
+    "featured_collection_3cCFxh": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Coffee Machines",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "machines",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "none",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
         "padding_bottom": 36
       }
     }
   },
   "order": [
+    "glide_slider_YBgELg",
     "image_banner",
-    "featured_collection"
+    "featured_collection",
+    "featured_collection_3cCFxh"
   ]
 }
