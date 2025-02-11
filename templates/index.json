@@ -48,6 +48,7 @@
         "glide_slider_item_BWNG4T",
         "glide_slider_item_jBMQnE"
       ],
+      "disabled": true,
       "settings": {
         "h1-title": true
       }
@@ -78,7 +79,6 @@
         "heading",
         "button"
       ],
-      "disabled": true,
       "settings": {
         "image": "shopify://shop_images/Gelsomini_TazzinaStatica_loop_1440x490_40ef6562-bae6-4836-9ecd-5cda7497b6d6.gif",
         "image_overlay_opacity": 0,
